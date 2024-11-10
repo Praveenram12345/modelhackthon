@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background:rgb(1, 1, 45);
+    color: black;
+    padding: 13px;
+    text-align: left;
+}
+header h1{
+    color: #f4f4f4;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+main {
+    flex: 2;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-left: 20px;
+    float:center;
+}
+
+.floated-image {
+    float: left;
+    margin-right: 15px;
+    height: 150px;
+    width: 200x;
+}
+.about{
+    height: 600px;
+    width: 1300px;
+    background-color: rgb(1, 1, 45);
+   
+
+}
+.about ol{
+    color: #f4f4f4;
+}
+.about h1{
+    text-align:center;
+    font-size: 40px;
+    font-style:italic;
+   color: #f4f4f4;
+}
+.about p{
+    text-align: center;
+    color: #f4f4f4;
+}
+.about img{
+    height: 250px;
+    width: 350px;
+}
+.about  a{
+    color: #f4f4f4;
+    text-align: center;
+}
+.about a button {
+    text-align: center;
+}
+.activities{
+    height: 550px;
+    width: 1300px;
+    background-color:cadetblue;
+}
+.activities h1{
+    text-align: center;
+    font-style:italic;
+}
+.activities img{
+    height:500px;
+    width: 550px;
+}
+.contact{
+    height: 400px;
+}
+.contact h1{
+text-align: center;
+font-style: italic;
+}
+.contact img{
+    height: 300px;
+    width: 270px;
+}
+.contact form{
+   float: right;
+   padding-right: 550px;
+}
+footer {
+    background:rgb(252, 134, 9);
+    color: white;
+    text-align: left;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
